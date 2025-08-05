@@ -11,7 +11,7 @@
             <ul>
                 {% for item in section.items %}
                     <li>
-                        <strong>{{ if item.name }}</strong> - {{ item.description }} - <em>{{ item.price }}</em>
+                        <strong>{{ item.name }}</strong> - {{ item.description }} - <em>{{ item.price }}</em>
                     </li>
                 {% endfor %}
             </ul>
